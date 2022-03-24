@@ -20,4 +20,4 @@ print( texto * 5 )
 monto = input("Bienvenido, por favor ingrese su monto: ").strip()
 
 dinero = monto * 56
-print(monto)
+print(monto) #La formula esta equivocada(error)
