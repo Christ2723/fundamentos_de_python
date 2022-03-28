@@ -23,8 +23,11 @@ if operacion == 3:
     print(resultado3)
     
 if operacion == 4:
+    num2 == 0
+    print("La operacion no puede ser ejecutada: ") 
+if not num2 == 0:
     resultado4 = num / num2  
-    print(resultado4) 
+    print(resultado4)
         
 print("Hola mi nombre es Christlopher Payero: \n")
 
