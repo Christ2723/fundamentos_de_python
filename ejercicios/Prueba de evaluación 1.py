@@ -10,24 +10,24 @@ num = int(input("Digite un número: "))
 num2 = int(input("Digite un número: "))
 
 
-operacion = int(input("Elija un operador +,-,*,/:"))
+operacion = int(input("Elija un operador 1 al 4:"))
 
-if operacion == +:
+if operacion == 1:
     resultado1 = num + num2
     print(resultado1)
-if operacion == -:
+if operacion == 2:
     resultado2 =  num - num2 
     print(resultado2)
-if operacion == *:
+if operacion == 3:
     resultado3 = num * num2
     print(resultado3)
     
-if operacion == /:
+if operacion == 4:
     num2 == 0
     print("La operacion no puede ser ejecutada: ") 
-if not num2 == 0:
-    resultado4 = num / num2  
-    print(resultado4)
+    if not num2 == 0:
+        resultado4 = num / num2  
+        print(resultado4)
         
 print("Hola mi nombre es Christlopher Payero: \n")
 
