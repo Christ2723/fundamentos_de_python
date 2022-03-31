@@ -1,4 +1,4 @@
-
+import re
 usuario = input("Digite el usuario: ")
 
 patron = " Ʌ[a-zA-Z0-9]{3,25}$"
