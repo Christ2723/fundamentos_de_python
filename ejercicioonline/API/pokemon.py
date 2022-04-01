@@ -13,18 +13,32 @@ if respuesta:
 
   idiomas = []
   habilidades = []
+  peso = []
+  altura = []
+  cantidad_de_movimientos = []
   for nombres in datos['names']:
     idiomas.append(nombres['language']['name'])
     habilidades.append(nombres,['name'])
+    peso.append(nombres,['weight:'])
+    altura.append(nombres,['height:'])
+    cantidad_de_movimientos.append(nombres,['moves:']) 
 
   print("-"*20)
   print("Listado de idiomas: ")
   for idioma in idiomas:
     print(idioma)
 
+  print("Peso: ")
+  for pesos in peso:
+    print(peso)
+
+  print("Altura: ")
+  for alturas in altura:
+    print(altura)
+
   print("Listado de habilidades: ")
-  for habilidades in habilidades:
-    print(habilidad)
+  for movimientos in  cantidad_de_movimientos:
+    print( cantidad_de_movimientos)
 else:
   Print("El pokemo no existe: ")
 
