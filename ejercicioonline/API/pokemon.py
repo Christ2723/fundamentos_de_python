@@ -13,8 +13,8 @@ if respuesta:
 
   idiomas = []
   habilidades = []
-  peso = []
-  altura = []
+  peso = None
+  altura = None
   cantidad_de_movimientos = []
   for nombres in datos['names']:
     idiomas.append(nombres['language']['name'])
@@ -28,12 +28,8 @@ if respuesta:
   for idioma in idiomas:
     print(idioma)
 
-  print("Peso: ")
-  for pesos in peso:
     print(peso)
 
-  print("Altura: ")
-  for alturas in altura:
     print(altura)
 
   print("Listado de habilidades: ")
