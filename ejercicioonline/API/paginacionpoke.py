@@ -1,11 +1,14 @@
 import requests
-
-url = f"https://pokeapi.co/api/v2/pokemon?limit=50&offset=1"
+x1 = int(input("Cuantos resultados desea ver:? "))
+while 1x <= 898:
+rl = f"https://pokeapi.co/api/v2/pokemon?limit=50&offset=1"
 
 respuesta = requests.get(url)
-dato = respuesta.json()
-datos = []
-for nombres in range(len(dato['results'])):
-  datos.append(dato['results'][nombres]['name'])
-print(datos)
-   
+datos = respuesta.json()
+nombres = []
+for x in range(len(datos['results'])):
+  nombres.append(datos['results'][x]['name'])
+
+for i,x in enumerate(nombre,1):
+  print(f"{i+x}
+
