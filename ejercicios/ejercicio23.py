@@ -10,5 +10,10 @@ except TypeError:
 except ZerpdivisionError:
   print("No se puede dividir entre 0")
 
-  
+  edad = int(input("Digite una edad"))
+
+  if edad < 18:
+    raise Exception("No puede ser menor")
+    
+  print("El leo....")  
 print("hola")  
