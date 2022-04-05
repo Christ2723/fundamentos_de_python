@@ -1,15 +1,10 @@
-# Print characters from a string that are present at an even index number
+# Hacer un programa que muestre un listado con los pokemones, el usuario tendra la oportunidad de digitar su id correspondeinte, y se le mostrara la informacion relacionada al mismo.
 
-given_string = input('Enter a string: ')
+# ademas, el usuario podra navegar en el programa mediante los shortcuts y/o teclas del teclado:
+# algunas de las opciones serian:
+# ver siguiente/anterior listado:
+# ver siguiente/anterior pokemo:
+# salir del programa:
+# buscar un pokemon por su id:
+# buscar:
 
-even_chars = []
-odd_chars = []
-
-for i in range(len(given_string)):
-    if i % 2 == 0:
-        even_chars.append(given_string[i])
-    else:
-        odd_chars.append(given_string[i])
-
-print('Odd characters: {}'.format(odd_chars))
-print('Even characters: {}'.format(even_chars))
