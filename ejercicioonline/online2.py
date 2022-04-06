@@ -8,3 +8,12 @@
 # buscar un pokemon por su id:
 # buscar:
 
+import requests
+
+pokemones = []
+
+usuario = input("Digite un pokemon")
+url = f" https://pokeapi.co/api/v2/ability/{usuario}" respuesta = requests.get(url)
+if respuesta:
+  datos = requests,json()
+  for poke in lista()  
